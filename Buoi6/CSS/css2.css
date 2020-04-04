@@ -80,7 +80,6 @@ nav {
      left:225px;
      right:225px;
      top:-20px;
-
  }
 
 /*HEADER*/
@@ -121,7 +120,6 @@ header {
 section {
     background-color:#EEEEEE;
     width:100%;
-    height:500px;
 }
 
 #section {
@@ -129,7 +127,7 @@ section {
     height:450px;
 }
 
-.article1, .article2, .article3, .article4, .article5, .article6 {
+.article1 {
     position: relative;
     width:29%;
     height:180px;
@@ -138,31 +136,6 @@ section {
 }
 
 .article1:hover{
-    cursor: pointer;
-    box-shadow: 2px 2px 5px black;
-}
-
-.article2:hover{
-    cursor: pointer;
-    box-shadow: 2px 2px 5px black;
-}
-
-.article3:hover{
-    cursor: pointer;
-    box-shadow: 2px 2px 5px black;
-}
-
-.article4:hover{
-    cursor: pointer;
-    box-shadow: 2px 2px 5px black;
-}
-
-.article5:hover{
-    cursor: pointer;
-    box-shadow: 2px 2px 5px black;
-}
-
-.article6:hover{
     cursor: pointer;
     box-shadow: 2px 2px 5px black;
 }
@@ -274,6 +247,7 @@ aside {
 /*FOOTER*/
 footer {
     background-color: #99CCFF;
+    background-repeat: no-repeat;
     width:100%;
     height:500px;
     position: relative;
@@ -357,29 +331,203 @@ footer {
         width: auto;
     }
 
-    #nav {
-        background-color: red;
-    }
 }
 
 /*701~960*/
 @media screen and (max-width:960px) {
-    #nav {
-        background-color: green;
-    }
+    
 }
 
 /*481~700*/
 @media screen and (max-width:700px) {
-    #nav {
-        background-color:yellow;
+    #bigmenu {
+        top:60px;
+        width: 60%;
+        height:30px;
+    }
+    
+    #work, #about, #contact, #blog {
+        font-size: 15px;
+    }
+
+    #menuleft {
+        left:0px;
+    }
+    
+    #menuright {
+        right:0px;
+    }
+
+    #biglogo {
+        left:20%;
+        right:20%;
+    }
+
+    #section {
+        width:80%;
+        height:650px;
+    }
+
+    .article1 {
+        position: relative;
+        width:45%;
+        height:200px;
+        float: left;
+        margin: 2%;
+    }
+
+    #topic {
+        bottom: 60px;
+    }
+
+    aside {
+        background-color:white;
+        width:100%;
+        height:400px;
+    }
+
+    #aside1 {
+        width: 100%;
+        height:250px;
+        float: none;
+    }
+
+    #aboutme, #intro {
+        left: 50px;
+    }
+
+    #aside2 {
+        width: 100%;
+        height:150px;
+        float: none;
+        left:30px;
+    }
+
+    footer {
+        width:100%;
+        height:500px;
+    }
+
+    #background {
+        width:100%;
+        height:500px;
+    }
+
+    #tittle {
+        left:50px;
+    }
+    
+    #something {
+        left:50px;
+    }
+    
+    #form {
+        left:50px;
     }
 }
 
 /*0~480*/
 @media screen and (max-width:480px) {
-    #nav {
-        background-color:violet;
+    #bigmenu {
+        top:20px;
+        border: none;
+    }
+
+    #work, #about, #contact, #blog {
+        display: none;
+    }
+
+    #biglogo {
+        width:50%;
+        top:10px;
+        left:20%;
+        right:20%;
+    }
+
+    #header {
+        height: 150px;
+    }
+
+    #h1 {
+        height: 130px;
+        font-size: 25px;
+    }
+    
+    #h4 {
+        height: 20px;
+        font-size: 10px;
+    }
+
+    #section {
+        width:80%;
+        height:1200px;
+    }
+
+    .article1 {
+        position: relative;
+        width:90%;
+        height:180px;
+        float: left;
+        margin: 2%;
+    }
+
+    #topic {
+        bottom: 40px;
+    }
+
+    aside {
+        background-color:white;
+        width:100%;
+        height:450px;
+    }
+
+    #aside1 {
+        width: 100%;
+        height:300px;
+        float: none;
+    }
+
+    #aboutme, #intro {
+        left: 50px;
+    }
+
+    #aside2 {
+        width: 100%;
+        height:150px;
+        float: none;
+        left:30px;
+    }
+
+    footer {
+        width:100%;
+        height:500px;
+    }
+
+    #background {
+        width:100%;
+        height:500px;
+    }
+
+    #tittle {
+        left:30px;
+    }
+    
+    #something {
+        left:30px;
+    }
+    
+    #form {
+        left:30px;
+    }
+
+    #button {
+        width:80%;
+        height:30px;
+    }
+
+    #button:hover {
+        width:85%;
+        height:35px;
     }
 }
 
