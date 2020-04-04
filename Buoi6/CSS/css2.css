@@ -1,0 +1,385 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#container {
+    width: 1000px;
+    height: auto;
+}
+
+/*NAVIGATION*/
+nav {
+    width:100%;
+    height:100px;
+    position: relative;
+}
+
+.menu {
+    list-style-type: none;
+    font-family: cursive;
+    font-size: 25px;
+    color: gray;
+}
+
+#bigmenu {
+    width: 60%;
+    height:40px;
+    position: absolute;
+    position: relative;
+    top:40px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+#menuleft {
+    position: absolute;
+    left:10px;
+    top:-7px;
+}
+
+#menuright {
+    position: absolute;
+    right:0px;
+    top:-7px;
+}
+
+#work, #about, #contact,#blog {
+    float: left;
+    margin: 10px;
+}
+
+#work, #about, #contact, #blog:hover{
+    cursor: pointer;
+}
+
+#work:hover {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px gray;
+}
+
+#about:hover {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px gray;
+}
+
+#contact:hover {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px gray;
+}
+
+#blog:hover {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px gray;
+}
+
+#biglogo {
+     width: 25%;
+     z-index: 10;
+     position: absolute;
+     left:225px;
+     right:225px;
+     top:-20px;
+
+ }
+
+/*HEADER*/
+header {
+    background-color:#EEEEEE;
+    width:100%;
+    height:200px;
+    position: relative;
+}
+
+#header {
+    position: absolute;
+    position: relative;
+    width:80%;
+    height: 100px;
+    top:50px;
+}
+
+#h1 {
+    position: absolute;
+    top:0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #009999;
+    text-align: center;
+}
+
+#h4 {
+    position: absolute;
+    top:90px;
+    width:100%;
+    font-family: 'Courier New', Courier, monospace;
+    color:gray;
+    text-align: center;
+}
+
+/*SECTION*/
+section {
+    background-color:#EEEEEE;
+    width:100%;
+    height:500px;
+}
+
+#section {
+    width:80%;
+    height:450px;
+}
+
+.article1, .article2, .article3, .article4, .article5, .article6 {
+    position: relative;
+    width:29%;
+    height:180px;
+    float: left;
+    margin: 2%;
+}
+
+.article1:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.article2:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.article3:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.article4:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.article5:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.article6:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+#image {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:110px;
+    border: 1px solid gray;
+}
+
+#topic {
+    position: absolute;
+    bottom: 37px;
+    color: #009999;
+    font-weight: bold;
+}
+
+#description {
+    position: absolute;
+    bottom: 0px;
+    color: gray;
+}
+
+#p {
+    width:90%;
+    height:50px;
+    text-align: center;
+    color: gray;
+}
+
+/*ASIDE*/
+aside {
+    background-color:white;
+    width:100%;
+    height:250px;
+}
+
+#aside1 {
+    width: 60%;
+    height:100%;
+    position: relative;
+    float: left;
+}
+
+#aboutme {
+    position: absolute;
+    width:100%;
+    top: 20px;
+    left:110px;
+    color:#009999;
+}
+
+#intro {
+    position: absolute;
+    width:80%;
+    top: 70px;
+    left:110px;
+    word-wrap: wrap break-word;
+    color:gray;
+    text-align: justify;
+}
+
+#aside2 {
+    width: 40%;
+    height:100%;
+    float: left;
+    position: relative;
+}
+
+#follow {
+    width: 100%;
+    color: #009999;
+    position: absolute;
+    top: 20px;
+    left:15px;
+}
+
+#follow1 {
+    position: absolute;
+    width:100%;
+    top: 70px;
+    left:15px;
+    color:gray;
+    text-align: justify;
+}
+
+#logo {
+    position: absolute;
+    width:100%;
+    height:50px;
+    top: 100px;
+    left:15px;
+}
+
+#facebook, #insta, #line, #twitter {
+    width: 30px;
+    height:30px;
+    float: left;
+    margin: 5px;
+}
+
+#facebook, #insta, #line, #twitter:hover {
+    cursor: pointer;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #99CCFF;
+    width:100%;
+    height:500px;
+    position: relative;
+}
+
+#background {
+    width:100%;
+    position: absolute;
+    top: 0px;
+}
+
+#tittle {
+    position: absolute;
+    top:20px;
+    left:100px;
+    color:white;
+    z-index: 1;
+}
+
+#something {
+    position: absolute;
+    top: 70px;
+    left:100px;
+    color: white;
+    z-index: 1;
+}
+
+#form {
+    position: absolute;
+    top: 110px;
+    left:100px;
+    z-index: 1;
+    width:100%;
+    height:auto;
+}
+
+.label {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input {
+    width: 80%;
+    height:30px;
+}
+
+.label, .input {
+    margin: 5px;
+    padding:5px;
+}
+
+#textarea {
+    width: 80%;
+    height:90px;
+    margin: 5px;
+}
+
+#button {
+    margin: 5px;
+    border:1px outset #009999;
+    background-color: #66CCCC;
+    border-radius: 5px;
+    width:60px;
+    height:30px;
+    color: white;
+}
+
+#button:hover {
+    cursor: pointer;
+    border:1px outset #009966;
+    background-color: #66CC99;
+    color: #009966;
+    box-shadow: 5px 5px 9px #009966;
+    width:70px;
+    height:35px;
+}
+
+@media screen and (max-width:1200px) {
+    #container {
+        width: auto;
+    }
+
+    #nav {
+        background-color: red;
+    }
+}
+
+/*701~960*/
+@media screen and (max-width:960px) {
+    #nav {
+        background-color: green;
+    }
+}
+
+/*481~700*/
+@media screen and (max-width:700px) {
+    #nav {
+        background-color:yellow;
+    }
+}
+
+/*0~480*/
+@media screen and (max-width:480px) {
+    #nav {
+        background-color:violet;
+    }
+}
+
