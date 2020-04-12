@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function check() {
+            $thang = document.getElementById("check").value;
+            if ($thang == 1) {
+                alert("January");
+            } else if ($thang == 2) {
+                alert("Feburary");
+            } else if ($thang == 3) {
+                alert("March");
+            } else if ($thang == 4) {
+                alert("April");
+            } else if ($thang == 5) {
+                alert("May");
+            } else if ($thang == 6) {
+                alert("June");
+            } else if ($thang == 7) {
+                alert("July");
+            } else if ($thang == 8) {
+                alert("August");
+            } else if ($thang == 9) {
+                alert("September");
+            } else if ($thang == 10) {
+                alert("October");
+            } else if ($thang == 11) {
+                alert("November");
+            } else if ($thang == 12) {
+                alert("December");
+            } else {
+                alert("Invalid");
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>Nhập tháng</p>
+    <input type="text" id="check" name="noname"/>
+    <input type="button" onclick="check()" value="Submit" />
+</body>
+</html>
