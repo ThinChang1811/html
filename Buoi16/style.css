@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+#logo {
+    height: 10px;
+}
+
+.header {
+    height: 60px;
+    background:white;
+}
+
+.tittle {
+    height: 120px;
+    background-color: #FDF6DC;
+    text-align: center;
+    line-height: 2;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cook {
+    height: 60%;
+    margin-top: 30px;
+}
+
+.bigmenu{
+    background-color: #FFDA5A;
+    height: 50px;
+}
+
+.bmenu {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 23px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.bmenu:hover {
+    color: black;
+    background-color: #FFE58C;
+}
+
+.recipelist {
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-weight: 300;
+    color: white;
+    background-color: #4B4942;
+    line-height: 3;
+}
+
+.smallmenu {
+    height: 80px;
+}
+
+.smenu {
+    border-bottom:#D8D7D2 solid 5px;
+    padding-bottom:2;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'notosans', sans-serif;
+    font-weight: 200;
+}
+
+.smenu:hover {
+    border-bottom: #FFDA5A solid 5px;
+    color: black;
+}
+
+.nav-item.sdish {
+    width: 12.1%;
+    height: 100px;
+    margin: 0.2%;
+    border: 2px solid #D8D7D2;
+    text-align: center;
+}
+
+.nav-item.sdish:hover {
+    color: black;
+}
+
+.dish-img {
+    width: 60%;
+}
+
+.dish-text {
+    font-family: 'notosans', sans-serif;
+}
+
+.card-body {
+    border-bottom:#D8D7D2 1px solid ;
+    padding-bottom: 0px;
+}
+
+.main-dish-menu {
+    margin-top: 20px;
+}
+
+.favorite {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.favorite-star {
+    width: 70%;
+    float: left;
+    position: absolute;
+    top:10px;
+}
+
+.favorite-folder {
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #C8C7BF;
+    width: 30px;
+}
+
+.main-dish-card {
+    border: none;
+}
+
+.bi-star-fill {
+    color: #C8C7BF;
+}
+
+.viewmore {
+    width: 100%;
+    height:100px;
+    text-align: center;
+}
+
+.view-more-text {
+    margin: 0px;
+    font-size: 30px;
+    font-family: 'notosans', sans-serif;
+    line-height: 2;
+    color:#4B4942 ;
+    font-weight: 700;
+}
+
+.bi-arrow-down-circle {
+    font-size: 40px;
+    font-family: 'notosans', sans-serif;
+    color:#4B4942 ;
+    font-weight: 800;
+}
+
+.bi-arrow-down-circle:hover {
+    cursor: pointer;
+    color: black;
+}
